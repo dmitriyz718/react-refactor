@@ -5,7 +5,7 @@
 
 #### What is this lab?
 
-Remember our Monument magazine website from the first week? Today we're going to modernize that project. It is now time to refactor our code for use with a modern front-end framework: React!
+Today we're going to modernize a magazine website using a modern front-end library: React!
 
 **The objective of this lab is to:**
 
@@ -17,21 +17,11 @@ Remember our Monument magazine website from the first week? Today we're going to
 
 ## Refactor!
 
-**To refactor your Monument project, first ensure you have either:**
-
-  A) Your working version of a static Monument site
-  
-**-or-**
-
-  B) The static version of Monument provided in this github repo labeled `starter-static-site`.
-
-
-
 **Suggested implementation**
 1. Create a React application in this repository, preferably in a new folder.
 2. Move *all* of your `html` content (minus the `head` tag) into a new component.
-3. Copy images and css into your `public` folder. 
-4. Link all of the images and styles into your new component. You may overwrite the `index.css` with the original *Monument* css.
+3. Copy images into your `public` folder. 
+4. You may overwrite the `index.css` with the original *Monument* css.
 5. Logically separate different pieces of the *Monument* html into smaller components.  
 
 
