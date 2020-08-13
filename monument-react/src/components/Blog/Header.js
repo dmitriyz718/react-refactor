@@ -1,12 +1,11 @@
 import React from 'react';
 
-function Blog() {
+function Header() {
     return (
         <div>
-            Blog
+            Header
         </div>
     )
 }
 
-
-export default Blog;
+export default Header;
