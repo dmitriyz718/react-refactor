@@ -7,6 +7,7 @@ import Landing from './components/Landing/Landing';
 import Blog from './components/Blog/Blog'
 import Header from './components/Landing/Header/Header';
 import Articles from './components/Landing/Articles/Articles';
+import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 function App() {
   return (
@@ -14,9 +15,10 @@ function App() {
       Welcome to React Monument
       <Nav />
       <Landing />
-      <Blog />
       {<Header />}
       <Articles />
+      <Blog />
+      <Contact />
       <Footer />
     </div>
   );
